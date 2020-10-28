@@ -4,7 +4,7 @@ class Conectar {
 	protected $dbh;
 		protected function Conexion(){
 			try {
-				$conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=marketplayer","root","");
+				$conectar = $this->dbh = new PDO("mysql:durvbryvdw2sjcm5.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=wfy34m4st3xsaqqj","d4kddy7z605p7jqr","cyborpoy7tc08fi8");
 				
 				return $conectar;	
 			} catch (Exception $e) {
